@@ -1,14 +1,12 @@
 #include<stdio.h>
 int main(){
-    int n,c=0;
+    int n,c=1;
     printf("enter a number");
     scanf("%d",&n);
     for (int i=1;i<=n;i++){
-        c=c+i;
-
-
+        c=c*i;
     }
-    printf("the sum of n nantural number %d",c);
+    printf("the factorial of %d is : %d",n,c);
     return 0;
-}
 
+}
