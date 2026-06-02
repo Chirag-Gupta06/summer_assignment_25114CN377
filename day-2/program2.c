@@ -12,6 +12,6 @@ int main(){
         a=c%10;
         r1=(r1*10)+a;
         c=b;   }
-        printf("the reversed number is :-%d",r1);
+        printf("the reversed number is :-%d",r1);//for reversing the digits
         return 0;
 }
